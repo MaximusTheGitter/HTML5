@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <title>Burton Education</title>
+</head>
+<header>
+    <h1>Registratie</h1>
+</header>
+<nav>
+    <a href="main.html">Home</a>
+    <a href="">Produkten</a>
+    <a href="">Contact</a>
+    <a href="login.html">Login</a>
+</nav>
+<body>
+<section>
+    <form action="http://www.voormbo.nl/course/html5/formtest.php" method="post">
+        <div id="column1">
+            <div class="vraag">
+                <label for="voornaam">Voornaam</label>
+            </div>
+            <div class="antwoord">
+                <input type="text" name="voornaam" id="voornaam">
+            </div>
+            <div class="vraag">
+                <label for="tussenvoegsel">Tussenvoegsel</label>
+            </div>
+            <div class="antwoord">
+                <input type="text" name="tussenvoegsel" id="tussenvoegsel">
+            </div>
+            <div class="vraag">
+                <label for="achternaam">Achternaam</label>
+            </div>
+            <div class="antwoord">
+                <input type="text" name="achternaam" id="achternaam">
+            </div>
+            <div class="vraag">
+                <label for="geslacht">Geslacht</label>
+            </div>
+            <div class="antwoord">
+                <div>
+                    <input type="radio">
+                    <span>Man</span>
+                    <input type="radio">
+                    <span>Vrouw</span>
+                </div>
+            </div>
+            <div>
+                <label for="oogkleur">Oog kleur</label>
+            </div>
+            <div>
+                <select name="cars" id="oogkleur">
+                    <option value="blauw">Blauw</option>
+                    <option value="grijs">Grijs</option>
+                    <option value="bruin">Bruin</option>
+                    <option value="groen">Groen</option>
+                </select>
+            </div>
+            <div>
+                <label for="geboortedatum">Geboorte datum</label>
+            </div>
+            <div>
+                <input type="date" name="geboortedatum" id="geboortedatum">
+            </div>
+            <div>
+                <label for="overjezelf">Over jezelf</label>
+            </div>
+            <div>
+                <textarea name="overjezelf" rows="6" cols="55" id="overjezelf">Hoi ik ben...</textarea>
+            </div>
+        </div>
+        <div id="column2">
+            <div>
+                <h3 id="header">Interesses</h3>
+            </div>
+            <div>
+                <div>
+                    <input type="checkbox" name="optie1" value="sportenbewegen">Sport & Beweging
+                </div>
+                <div>
+                    <input type="checkbox" name="optie2" value="economie">Economie
+                </div>
+                <div>
+                    <input type="checkbox" name="optie3" value="techniek">Techniek
+                </div>
+                <div>
+                    <input type="checkbox" name="optie4" value="ict">ICT
+                </div>
+                <div>
+                    <input type="checkbox" name="optie5" value="zorg">Zorg
+                </div>
+            </div>
+            <div id="column3">
+                <div>
+                    <input type="reset" id="reset">
+                    <input type="submit" id="submit">
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+<footer>
+    <a href="">Over ons</a><br>
+    <a href="">Produkten</a><br>
+    <a href="">Contact</a><br>
+    Copyright &copy; 2018
+</footer>
+</body>
+</html>
